@@ -1,0 +1,52 @@
+﻿@page
+@model ProjetoRCL.MyFeature.Pages.Page1Model
+@{
+    Layout = "_Layout";
+}
+
+<section class="not__found">
+    <div class="clouds__back">
+        <div class="container__small"></div>
+    </div>
+</section>
+<section class="return container__small">
+    <div class="lighthouse lighthouse__desktop">
+        <img src="Images/farol.png" alt="Farol"></img>
+        <div class="lightAnimation"></div>
+    </div>
+    <div class="content">
+        <div class="not__found__content">
+            <h1>Essa página não foi encontrada</h1>
+            <h6>O endereço abaixo não existe no bne.com.br</h6>
+            <p class="url__painel">https://www.bne.com.br/vagas-de-emprego-para-cortador-de-unha-de-elefante</p>
+            <div class="call__to__action">
+                <a class="button primary" href="#">
+                    ir para vagas
+                </a>
+                <a class="button outlined white" href="#">
+                    ir para curriculos
+                </a>
+            </div>
+        </div>
+        <div class="lighthouse lighthouse__mobile">
+            <img src="~/Images/farol.png" alt="Farol"></img>
+            <div class="lightAnimation"></div>
+        </div>
+        <div class="return__card">
+            <div class="return__card__send-cv">
+                <h3 class="card__title">Quer <strong>Emprego?</strong></h3>
+                <p>Não perca mais tempo,</p>
+                <p>consiga um emprego novo hoje!</p>
+                <a class="button outlined white">Cadastrar Currículo</a>
+                <p>ou acessar a sua conta</p>
+            </div>
+            <div class="return__card__publish-job">
+                <h3 class="card__title">Quer <strong>Contratar?</strong></h3>
+                <p>Inicie seu recrutamento no BNE e</p>
+                <p>preencha vagas rapidamento</p>
+                <a class="button outlined white">Publicar uma vaga</a>
+                <p>ou acessar a sua conta</p>
+            </div>
+        </div>
+    </div>
+</section>

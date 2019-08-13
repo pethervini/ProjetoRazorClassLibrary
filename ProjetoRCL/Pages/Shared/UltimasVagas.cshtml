@@ -1,0 +1,37 @@
+﻿@model ProjetoRCL.Model.VagasSimilaresModel
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="container__small job__similar__area">
+
+    <h4>Vagas semelhantes: </h4>
+
+    <div class="similar__jobs">
+        <a title="Vaga para @Model.NomeFuncao" class="jobs__content" href="">
+            <h2>
+                <p>
+                    @Model.NomeFuncao
+                    <strong class="jobs__content__tag">NOVO</strong>
+                </p>
+            </h2>
+            <h3><strong>Localização:</strong> @Model.Cidade/@Model.SiglaEstado</h3>
+            <h3><strong>Salário:</strong> @Model.Salario</h3>
+        </a>
+    </div>
+
+
+    <div class="similar__jobs">
+        <a title="Vaga para @Model.NomeFuncao" class="jobs__content" href="">
+            <h2>
+                <p>
+                    @Model.NomeFuncao
+                    <strong class="jobs__content__tag">NOVO</strong>
+                </p>
+            </h2>
+            <h3><strong>Localização:</strong> @Model.Cidade/@Model.SiglaEstado</h3>
+            <h3><strong>Salário:</strong> @Model.Salario</h3>
+        </a>
+    </div>
+</div>

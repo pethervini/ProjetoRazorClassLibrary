@@ -1,0 +1,311 @@
+﻿.not__found {
+    background-color: #074d87;
+    width: 100vw;
+    min-height: 490px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    .clouds__back
+
+{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/notfoundpage/clouds.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .container__small
+
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+}
+
+.clouds {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+}
+
+.lighthouse {
+    z-index: 999;
+    top: 0;
+    position: relative;
+    &__mobile
+
+{
+    display: none;
+    width: 100vw;
+    justify-content: center;
+}
+
+img {
+    width: 470px;
+    height: auto;
+}
+
+.lightAnimation {
+    position: absolute;
+    top: 21.5%;
+    left: 50%;
+    border-radius: 100%;
+    background-color: #fff;
+    animation: glow 5s ease infinite;
+}
+
+}
+
+.return {
+    margin-top: -460px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    .button
+
+{
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 0.8em;
+    min-width: 172px;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: center;
+    &.primary
+
+{
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff;
+    margin-right: 16px;
+}
+
+}
+
+.content {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    .not__found__content
+
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 86px 8px 0px;
+    h1
+
+{
+    font-size: 30px;
+    margin-bottom: 16px;
+    font-weight: bolder;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.url__painel {
+    font-size: 12px !important;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+}
+
+.call__to__action {
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px;
+    a
+
+{
+    font-size: 12px;
+}
+
+}
+}
+
+.return__card {
+    z-index: 10;
+    display: flex;
+    margin-bottom: 64px;
+    justify-content: space-evenly;
+    h3
+
+{
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    strong
+
+{
+    font-weight: 500;
+}
+
+}
+
+p {
+    font-size: 14px !important;
+}
+
+.outlined {
+    margin: 24px 0px 8px;
+    font-size: 12px;
+}
+
+&__send-cv {
+    padding: 32px;
+    background-color: #074d87;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    min-width: 340px;
+    max-height: 227px;
+    margin-right: 16px;
+    & :nth-child(5)
+
+{
+    font-size: 0.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+}
+
+&__publish-job {
+    padding: 32px;
+    background-color: #689f38;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    min-width: 340px;
+    max-height: 227px;
+    & :nth-child(5)
+
+{
+    font-size: 0.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+}
+}
+}
+}
+
+@keyframes glow {
+    0% {
+        width: 0px;
+    }
+
+    15% {
+        box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+    }
+
+    33% {
+        box-shadow: 0px 0px 40px 40px rgba(255, 255, 255, 1);
+    }
+
+    55% {
+        box-shadow: 0px 0px 38px 38px rgba(255, 255, 255, 1);
+    }
+
+    70% {
+        box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.75);
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .not__found {
+        min-height: 790px;
+    }
+
+    .return {
+        margin-top: -809px;
+        .return__card
+
+{
+    &__send-cv, &__publish-job
+
+{
+    width: 45%;
+}
+
+}
+}
+
+.lighthouse {
+    &__desktop
+
+{
+    display: none;
+}
+
+&__mobile {
+    display: flex;
+}
+
+}
+
+.content {
+    order: 1;
+}
+
+}
+
+@media only screen and (max-width: 679px) {
+    .return__card {
+        &__send-cv
+
+{
+    margin-right: 0 !important;
+    margin-bottom: 16px;
+    width: 100% !important;
+}
+
+&__publish-job {
+    width: 100% !important;
+}
+
+flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 449px) {
+    .call__to__action {
+        flex-direction: column;
+        .button
+
+{
+    padding: 16px 0px;
+    width: 250px;
+    max-width: 90vw;
+    &.primary
+
+{
+    margin-right: 0 !important;
+    margin-bottom: 32px;
+}
+
+}
+}
+}

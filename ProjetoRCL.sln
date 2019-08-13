@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoRCL", "ProjetoRCL\ProjetoRCL.csproj", "{83907500-3AE1-4AFC-85E6-E10CE87C4B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsomeRCL", "ConsomeRCL\ConsomeRCL.csproj", "{0A4E383B-9F70-483C-98DE-F61580E90B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83907500-3AE1-4AFC-85E6-E10CE87C4B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83907500-3AE1-4AFC-85E6-E10CE87C4B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83907500-3AE1-4AFC-85E6-E10CE87C4B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83907500-3AE1-4AFC-85E6-E10CE87C4B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4E383B-9F70-483C-98DE-F61580E90B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4E383B-9F70-483C-98DE-F61580E90B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4E383B-9F70-483C-98DE-F61580E90B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4E383B-9F70-483C-98DE-F61580E90B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5EDB3F1-1AFD-4050-918A-AD73A5891264}
+	EndGlobalSection
+EndGlobal
